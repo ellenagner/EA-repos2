@@ -2,8 +2,8 @@ name: Publish docker image EA
 
 on:
   push:
-    branches: ['release']
-    - main
+    branches: ['main', 'release']
+    
 
 env:
   REGISTRY: ghcr.io
